@@ -36,3 +36,18 @@ print(sum)
 #     result = sum(int(value) for value in re.findall('[0-9]+', f.read()))
 # print(result)
 # =============================================================================
+
+# =============================================================================
+#import re
+#name = input("Enter file:")
+#if len(name) < 1 : name = "regex_sum_42.txt"
+#handle = open(name)
+#sum=0
+##line=line.rstrip()
+#for line in handle:
+#    line=line.rstrip()
+#    y=re.findall('([0-9]+)',line)
+#    for x in y:
+#        sum+=int(x)
+print(sum)
+# =============================================================================
